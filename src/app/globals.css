@@ -1,27 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root {
+  --bg-color: 56, 189, 248;
+  --background-end-rgb: 15, 23, 42;
+  --background-start-rgb: 51, 65, 85;
+  
+  --whiteSoft: 226, 232, 240;
+  --card-bg: 30, 41, 59;
+  --card-bg-hover: 51, 65, 85;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--bg-color));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-} */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
