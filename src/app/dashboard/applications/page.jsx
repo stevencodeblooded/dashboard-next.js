@@ -1,6 +1,6 @@
 const Applications = () => {
   return (
-    <div>Applications</div>
+    <div>Applications Page goes here</div>
   )
 }
 

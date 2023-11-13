@@ -19,11 +19,11 @@ const Sidebar = () => {
         <ul className='flex flex-col gap-2 ml-2'>
           <li className='flex gap-2 items-center'>
             <span><AiFillHome /></span>
-            <Link href='/dashboard/welcome-screen'>Welcome Screen</Link>
+            <Link href='welcome-screen'>Welcome Screen</Link>
           </li>
           <li className='flex gap-2 items-center'>
             <span><RiProfileFill /></span>
-            <Link href='/'>Risk Profile</Link>
+            <Link href='risk-profile'>Risk Profile</Link>
           </li>
         </ul>
       </div>
@@ -33,19 +33,19 @@ const Sidebar = () => {
         <ul className='flex flex-col gap-2 ml-2'>
           <li className='flex gap-2 items-center'>
             <span><MdOutlineManageHistory /></span>
-            <Link href='/'>Risk Management</Link>
+            <Link href='risk-management'>Risk Management</Link>
           </li>
           <li className='flex gap-2 items-center'>
             <span><TfiControlShuffle /></span>
-            <Link href='/'>Internal Controls</Link>
+            <Link href='internal-controls'>Internal Controls</Link>
           </li>
           <li className='flex gap-2 items-center'>
             <span><AiOutlineIssuesClose /></span>
-            <Link href='/'>Issue Management</Link>
+            <Link href='issue-management'>Issue Management</Link>
           </li>
           <li className='flex gap-2 items-center'>
             <span><SiGithubactions /></span>
-            <Link href='/'>Action</Link>
+            <Link href='action'>Action</Link>
           </li>
         </ul>
       </div>
@@ -55,19 +55,19 @@ const Sidebar = () => {
         <ul className='flex flex-col gap-2 ml-2'>
           <li className='flex gap-2 items-center'>
             <span><AiOutlineLogin /></span>
-            <Link href='/'>Login</Link>
+            <Link href='/Login'>Login</Link>
           </li>
           <li className='flex gap-2 items-center'>
             <span><AiOutlineUserAdd /></span>
-            <Link href='/'>Register</Link>
+            <Link href='/Register'>Register</Link>
           </li>
           <li className='flex gap-2 items-center'>
             <span><RiLockPasswordFill /></span>
-            <Link href='/'>Recover Password</Link>
+            <Link href='/Recovery'>Recover Password</Link>
           </li>
           <li className='flex gap-2 items-center'>
             <span><BiSolidError /></span>
-            <Link href='/'>Error</Link>
+            <Link href='/404'>Error</Link>
           </li>
         </ul>
       </div>
